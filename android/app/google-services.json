@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "24353337486",
+    "project_id": "bortiz-5054a",
+    "storage_bucket": "bortiz-5054a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24353337486:android:45e1ff685dbe648709d9df",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "24353337486-3u6k31s7hdm1v1ddqsnd1219ej5ujn1s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutter_application_2",
+            "certificate_hash": "ec563af5c176dbf41f25cb2e1ecdc391cb66b5af"
+          }
+        },
+        {
+          "client_id": "24353337486-j3b0rrdvu6cp4k58bsm2kvt0f0bhfrl1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZpkxu4ew2q12ovOMj5GkoEWr2I0EJYEA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "24353337486-j3b0rrdvu6cp4k58bsm2kvt0f0bhfrl1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
