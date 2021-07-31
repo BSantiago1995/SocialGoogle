@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_2/User/Bloc/BlocUser.dart';
+import 'package:flutter_application_2/User/Bloc/blocUser.dart';
 import 'package:flutter_application_2/User/UI/Widget/ButtonInk.dart';
 import 'package:flutter_application_2/User/UI/Widget/Gradiente.dart';
 import 'package:flutter_application_2/User/UI/Widget/TextBox.dart';
