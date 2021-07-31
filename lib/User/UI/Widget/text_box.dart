@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-class TextBox extends StatelessWidget{
+class Textbox extends StatelessWidget{
   String texto_i="hola";
   double sizeLetter=0;
   final Color colores;
-  TextBox(this.texto_i,this.sizeLetter,this.colores);
+  Textbox(this.texto_i,this.sizeLetter,this.colores);
  @override
   Widget build(BuildContext context) {
   return Text(

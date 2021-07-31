@@ -1,10 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_2/User/Bloc/blocUser.dart';
-import 'package:flutter_application_2/User/UI/Widget/ButtonInk.dart';
-import 'package:flutter_application_2/User/UI/Widget/Gradiente.dart';
-import 'package:flutter_application_2/User/UI/Widget/TextBox.dart';
-import 'package:flutter_application_2/User/UI/Screem/Profile.dart';
+import 'package:flutter_application_2/User/UI/Widget/button_ink.dart';
+import 'package:flutter_application_2/User/UI/Widget/text_box.dart';
+import 'package:flutter_application_2/User/UI/Screem/profile_person.dart';
 import 'package:generic_bloc_provider/generic_bloc_provider.dart';
 
 class Login extends StatelessWidget{
@@ -49,15 +48,15 @@ class Login extends StatelessWidget{
                 children: [
                   ListTile(
                     contentPadding: EdgeInsets.fromLTRB(15, 10, 25, 0),
-                    title: TextBox('Welcome to,',25,Colors.white),
-                    subtitle: TextBox('Meditation Care',15,Colors.white),
+                    title: Textbox('Welcome to,',25,Colors.white),
+                    subtitle: Textbox('Meditation Care',15,Colors.white),
                     
                   ),
                   Image(image:AssetImage("assets/img/Login.png"),height: 350,fit: BoxFit.fitHeight,),
                   ListTile(
                     contentPadding: EdgeInsets.fromLTRB(15, 10, 25, 0),
-                    title: TextBox('Sing in',25,Colors.white),
-                    subtitle: TextBox('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci orci suscipi',15,Colors.white),
+                    title: Textbox('Sing in',25,Colors.white),
+                    subtitle: Textbox('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci orci suscipi',15,Colors.white),
                     
                   ),
                   Column(

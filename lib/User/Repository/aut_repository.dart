@@ -1,4 +1,4 @@
-import 'AutoFireBase.dart';
+import 'auto_firebase.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 class AutRepository{

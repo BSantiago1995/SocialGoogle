@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_2/User/UI/Screem/Login.dart';
-import 'package:flutter_application_2/User/UI/Widget/Gradiente.dart';
-import 'package:flutter_application_2/User/UI/Widget/TextBox.dart';
+import 'package:flutter_application_2/User/UI/Widget/text_box.dart';
 
 class Profile extends StatelessWidget{
   @override
@@ -53,10 +51,9 @@ class Profile extends StatelessWidget{
                   
                   ListTile(
                     contentPadding: EdgeInsets.fromLTRB(15, 10, 25, 0),
-                    title: TextBox('Relax Your Mind', 25,Colors.black),
-                    subtitle: Text(
-                    'Day Episode',textAlign: TextAlign.center,style:TextStyle(fontSize: 15)
-                    ),
+                    title: Textbox('Relax Your Mind', 25,Colors.black),
+                    subtitle: Textbox('Day Episode',15,Colors.black)
+                    ,
                     
                   ),
                   Column(
@@ -67,7 +64,7 @@ class Profile extends StatelessWidget{
                         children: [
                           Icon(Icons.archive_rounded,size: 35,),
                           Icon(Icons.thumb_up_alt_outlined,size:35),
-                          Icon(Icons.add_comment_rounded,size:35)
+                          Icon(Icons.add_comment_rounded,size:35),
                         ],
                       )
                     ],

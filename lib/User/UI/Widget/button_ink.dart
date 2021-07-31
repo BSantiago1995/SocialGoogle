@@ -10,10 +10,10 @@ class ButtonInk extends StatefulWidget {
 
   ButtonInk(
     //Key key,
-    @required this.textc,
-    @required this.sizes,
-    @required this.topc,
-     @required this.onPressed
+    this.textc,
+    this.sizes,
+    this.topc,
+     this.onPressed
     );
     
   @override

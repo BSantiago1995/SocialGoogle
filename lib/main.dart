@@ -1,7 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_2/User/Bloc/blocUser.dart';
-import 'package:flutter_application_2/User/UI/Screem/login.dart';
+import 'package:flutter_application_2/User/UI/Screem/login_person.dart';
 import 'package:generic_bloc_provider/generic_bloc_provider.dart';
 
 
